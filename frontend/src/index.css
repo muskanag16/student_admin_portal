@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌙 Dark Mode Configuration */
+html {
+  color-scheme: light dark;
+}
+
+/* Custom Scrollbar for dashboard aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Utility overrides for cards & buttons */
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6;
+}
+.btn {
+  @apply rounded-lg px-4 py-2 font-semibold text-white transition;
+}
+.btn-primary {
+  @apply bg-indigo-600 hover:bg-indigo-700;
+}
+.btn-danger {
+  @apply bg-red-500 hover:bg-red-600;
+}
+.btn-success {
+  @apply bg-green-500 hover:bg-green-600;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .sidebar {
+    @apply w-full text-center;
+  }
+}
+
+
