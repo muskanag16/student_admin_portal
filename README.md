@@ -1,10 +1,9 @@
-Perfect 🔥 Here’s a clean and professional **README.md** file for your project — “Student Assignment Management Dashboard” — with **Admin & Student roles**, **progress tracking**, and **localStorage persistence**.
 
 ---
 
 ### 📘 **README.md**
 
-```markdown
+
 # 🎓 Student Assignment Management Dashboard
 
 A responsive React-based dashboard for managing student assignments with **role-based functionality** — built for simplicity, clarity, and progress tracking.
@@ -116,7 +115,8 @@ You can clear these anytime from **DevTools → Application → Local Storage**.
 <img width="1915" height="918" alt="image" src="https://github.com/user-attachments/assets/8669e87c-f670-4cb0-ab9d-0e5791f2c212" />
 <img width="1914" height="957" alt="Screenshot 2025-11-01 232327" src="https://github.com/user-attachments/assets/0a5f98ce-8772-4588-bcd3-16aefce20736" />
 
-![Uploading Screenshot 2025-11-01 232402.png…]()
+<img width="1907" height="967" alt="Screenshot 2025-11-01 232402" src="https://github.com/user-attachments/assets/879d0803-2573-4d00-8033-03a5b37e161c" />
+
 
 
 -
